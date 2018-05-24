@@ -1,7 +1,7 @@
 (function() {
   var date = new Date();
-  time = date.getTime();
-  if (! document.getElementById('tmp-style')) {
+  var time = date.getTime();
+  if (!document.getElementById('tmp-style')) {
     var style = document.createElement('link');
     style.rel = "stylesheet";
     style.type = "text/css";
