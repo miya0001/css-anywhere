@@ -1,0 +1,15 @@
+{
+  "name": "apply-scripts",
+  "version": "1.0.0",
+  "description": "<a href=\"javascript:(function(){if(document.getElementById('tmp-script')){return void(0);};var s=document.createElement('script');s.id='tmp-script';s.src='hhh.js';document.body.appendChild(s)})()\">Hello</a>",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -o -p 8080 -S -C cert.pem",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
